@@ -1,0 +1,3 @@
+#!/bin/bash
+bin/hadoop fs -rm -r -skipTrash /home/sortData/sortOutput
+bin/hadoop jar HadoopSort-*.jar /home/sortData/ /home/sortData/sortOutput
